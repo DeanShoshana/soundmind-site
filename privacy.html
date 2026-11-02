@@ -29,7 +29,7 @@
     <a href="support.html">Support</a>
   </nav>
   <h1>Privacy Policy</h1>
-  <p class="updated">Last updated: August 23, 2026</p>
+  <p class="updated">Last updated: November 2, 2026</p>
 
   <section class="card">
     <p>SoundMind is designed as a local-first tone studio for your own recordings. This policy explains what the current version of the app handles, where processing happens, and what information reaches the developer.</p>
@@ -38,21 +38,24 @@
     <ul>
       <li>Audio you record or import.</li>
       <li>Generated audio clips and clip details such as tone, duration, and saved-file location.</li>
-      <li>Optional notes or labels you type into the app.</li>
+      <li>Optional transcript, project, note, or label text you type into the app.</li>
       <li>Subscription entitlement status provided by Apple StoreKit.</li>
     </ul>
 
     <h2>On-device audio processing</h2>
-    <p>Tone reinterpretation is performed entirely on your device. SoundMind does not upload or transmit your recordings, imported audio, generated clips, or notes to SoundMind or developer servers, advertising or analytics networks, or third-party artificial-intelligence services for tone processing.</p>
+    <p>Tone reinterpretation is performed entirely on your device. SoundMind does not send your recordings to developer-operated servers, advertising or analytics networks, or third-party artificial-intelligence services for tone processing.</p>
+
+    <h2>Private iCloud synchronization</h2>
+    <p>Beginning with SoundMind 3.0, the app uses Apple's CloudKit private database to keep projects, recordings, imported audio, generated clips, and notes synchronized across the user's iPhone, iPad, Mac, and Apple Watch. This synchronization transmits that content to Apple iCloud under the user's Apple ID. Private CloudKit records are accessible only to that iCloud user by default and are not visible to the developer through the CloudKit developer portal.</p>
 
     <h2>How information is used</h2>
     <p>The app uses your audio and notes locally to provide recording, import, tone reinterpretation, playback, library, and export features. Subscription entitlement status is used on your device to unlock paid features.</p>
 
     <h2>Storage, retention, and deletion</h2>
-    <p>Recordings, generated clips, and local metadata remain on your device until you delete them in SoundMind or remove the app. Copies you intentionally export or share are controlled by the destination you choose and that destination's privacy practices.</p>
+    <p>Local copies remain on each device until you delete them in SoundMind or remove the app. When iCloud sync is available, synchronized copies remain in the user's private CloudKit database and count against the user's iCloud storage. Deleting a synchronized item in SoundMind is propagated across connected devices. Copies you intentionally export or share are controlled by the destination you choose and that destination's privacy practices.</p>
 
     <h2>Tracking, analytics, and accounts</h2>
-    <p>The current version does not require a SoundMind account and does not include advertising, cross-app tracking, analytics, or cloud sync. SoundMind does not sell personal data.</p>
+    <p>SoundMind does not require a separate SoundMind account. Cross-device sync uses the Apple ID already signed in to iCloud. The app does not include advertising, cross-app tracking, or behavioral analytics, and SoundMind does not sell personal data.</p>
 
     <h2>Microphone and speech permissions</h2>
     <p>SoundMind asks for microphone access so you can record audio. Automatic transcription is currently disabled. The current tone-processing flow does not send audio to a speech-recognition service.</p>
@@ -67,7 +70,7 @@
     <p>SoundMind is not directed to children under 13, and the app does not knowingly collect personal information from children. If you believe a child has sent personal information to the developer in a support message, contact us and we will take reasonable steps to delete it.</p>
 
     <h2>Policy changes</h2>
-    <p>If a future version adds server-side audio processing, cloud sync, analytics, or another form of off-device collection, this policy and the app's App Store privacy disclosures will be updated before that version is released.</p>
+    <p>If a future version adds developer-operated server processing, analytics, or another form of off-device collection beyond the private iCloud sync described above, this policy and the app's App Store privacy disclosures will be updated before that version is released.</p>
 
     <h2>Contact</h2>
     <p>For privacy questions or deletion requests, contact <a href="mailto:shoshanadean@gmail.com">shoshanadean@gmail.com</a>. You can also review the <a href="terms.html">Terms of Use</a> or visit <a href="support.html">Support</a>.</p>
